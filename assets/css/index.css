@@ -172,6 +172,7 @@ small{
         background-color: var(--color1);
         height: inherit;
         padding: 5px;
+        margin-top: 50px;
     }
 
     main .container-cards{
@@ -183,7 +184,7 @@ small{
         align-items: center;
     }
     main .container-cards .card{
-        width: 48%;
+        width: 90%;
         border-radius: 10px;
     }
     main .container-cards .card .card-img{
@@ -198,27 +199,19 @@ small{
 
     /* SECTION Abra sua Emprsa  */
     section:nth-child(4){
-        height: inherit;
+        margin-top: -200px;
+        height: auto;
         background-image: none;
-        padding: 20px;
     }
 
     section:nth-child(4) article{
-        height: inherit;
     }
 
-    section:nth-child(4) .abrir-empresa{        
-        height: inherit;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
-        align-items: stretch;
+    section:nth-child(4) .abrir-empresa{     
     }
     section:nth-child(4) .abrir-empresa .container{ 
         width: 90%;
         min-height: 300px ;
-        margin-top: 50px;
     }
 
     /* QUEM SOMOS*/
