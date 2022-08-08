@@ -1,0 +1,237 @@
+@import url(./style.css);
+
+
+/* Estilos fixos */
+a{
+    text-decoration: none;
+    color: white;
+    transition: all ease 0.5s;
+}
+a:hover{
+    color: var(--color2);
+}
+
+
+.bg-color1{
+    background-color: var(--color1);
+}
+.bg-color2{
+    background-color: var(--color2);
+}
+.text-white{
+    color: white;
+}
+.text-color1{
+    color: var(--color1);
+}
+.text-color2{
+    color: var(--color2);
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.btn-more{
+    border: 3px solid var(--color2);
+}
+
+.btn{
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1.3em;
+    margin: 10px;
+    box-shadow: 1px 2px 10px var(--color2Opac);
+    transition: all ease 0.5s;
+}
+.btn:hover{
+    color: var(--color2);    
+    box-shadow: 5px 5px 10px var(--color2);
+}
+.bg-div-dark{
+    margin-top: -100px;
+    height: 100%;
+    height: 300px;
+    margin-left: -12px;
+    margin-right: -12px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, white 25%,  transparent);
+}
+.logoMenu{
+    width: 200px;
+}
+.text-center{
+    text-align: center;
+}
+small{
+    font-size:0.7em;
+    font-weight: lighter;
+}
+
+.text-height{
+    line-height: 15px;
+}
+
+.text-large{
+    font-size: 1.2em;
+}
+
+.text-just{
+    text-align: justify;
+}
+@media (min-width: 1200px) {
+    section{
+        background-image: url(./../img/bgGrandeCeu.jpg);
+        width: 100%;
+        height: calc(100vh + 150px);
+    }
+    section nav{
+        padding: 30px;
+    }
+    section nav .navbar-nav{
+        width: 100%;
+        position: relative !important;
+        right: 5px;
+    }
+    section nav ul li{
+        font-size: 1.3em;
+        margin: 5px;
+
+    }
+    section header{
+        width: 30% !important; 
+        margin-top: 100px;
+        margin-left: 200px;
+        overflow-x: hidden;
+        text-align: center;
+    }
+
+    .bg-div-dark .container-card{
+        margin-top: 200px;
+        display: flex;        
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: stretch;
+        gap: 15px;
+    }
+    .bg-div-dark .card{
+        display: inline-block;
+        width: 20%;
+        max-height: 300px;
+        overflow: hidden;
+        background-color: transparent;
+        outline: transparent;
+        border: none;
+        border-left: 5px solid var(--color2);
+    }
+    .bg-div-dark .first{
+        border-left: 5px solid transparent ;
+    }
+    .bg-div-dark .card .card-title{
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 1.1;
+    }
+    .bg-div-dark .card .card-text{
+        text-align: center;
+        font-size: 1;
+    }
+
+    /* Article */
+    article{
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Caroussel */
+    #carouselExampleControls{
+        margin: auto;
+        width: 1000px;
+        height: auto;
+    }
+
+    /* main */ 
+    main{
+        background-color: var(--color1);
+        height: 100vh;
+        padding: 20px;
+    }
+
+    main .container-cards{
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    main .container-cards .card{
+        width: 22%;
+        border-radius: 10px;
+    }
+    main .container-cards .card .card-img{
+        width: 100%;
+        margin-top: -70px;
+    }
+    main .container-cards .card .card-img img{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+
+    /* SECTION Abra sua Emprsa  */
+    section:nth-child(4){
+        height: inherit;
+        background-image: none;
+        padding: 20px;
+    }
+
+    section:nth-child(4) article{
+        height: inherit;
+    }
+
+    section:nth-child(4) .abrir-empresa{        
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: stretch;
+    }
+    section:nth-child(4) .abrir-empresa .container{ 
+        width: 40%;
+        min-height: 300px ;
+        margin-top: 50px;
+    }
+
+    /* QUEM SOMOS*/
+    section:nth-child(4) #quemsomos{        
+        margin-top: 150px;
+    }
+
+    /* Final */
+    section:nth-child(4) .end{  
+        width: 50%;
+        margin: auto;      
+        margin-top: 100px;
+    }
+
+
+    /* Footer */
+    footer{
+        width: 100%;
+        height: inherit;
+        margin-bottom: 0px;
+        position: relative;
+        bottom: 0px;
+        padding: 5px;
+    }
+
+    footer div p small{
+        margin: 0px 15px;
+    }
+}

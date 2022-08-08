@@ -1,0 +1,11 @@
+:root{
+    --color1:#2d023c ;
+    --color2:#d0066b ;
+    --color2Opac:#d0066b57 ;
+}
+
+body{
+    font-size: 16px;
+    background-color: white;
+}
+
