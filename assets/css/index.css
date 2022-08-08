@@ -56,9 +56,7 @@ a:hover{
     box-sizing: border-box;
     background-image: linear-gradient(to top, white 25%,  transparent);
 }
-.logoMenu{
-    width: 200px;
-}
+
 .text-center{
     text-align: center;
 }
@@ -81,6 +79,10 @@ small{
 
 
 @media (min-width: 300px) {
+    .logoMenu{
+        width: 150px;
+    }
+
     .bg-div-dark{
         margin-top: -20px;
         height: 100%;
