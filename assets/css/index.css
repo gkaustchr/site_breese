@@ -95,6 +95,9 @@ small{
 
     section{
         background-image: url(./../img/bgGrandeCeu.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-clip: border-box;
         width: 100%;
         height: calc(100vh + 150px);
     }
