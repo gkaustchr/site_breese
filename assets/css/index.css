@@ -253,6 +253,16 @@ small{
     }
 }
 @media (min-width: 1200px) {
+    .bg-div-dark{
+        margin-top: -3%;
+        height: 300px;
+        margin-left: -12px;
+        margin-right: -12px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        background-image: linear-gradient(to top, white 30%,  transparent);
+        margin-bottom: 50px;
+    }
     section{
         background-image: url(./../img/bgGrandeCeu.jpg);
         width: 100%;
@@ -318,13 +328,14 @@ small{
     }
 
     /* Article */
-    article{
+    article:nth-child(2){
         height: 100vh;
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
         align-items: center;
+        margin-top: 0px;
     }
 
     /* Caroussel */
